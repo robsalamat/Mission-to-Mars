@@ -3,8 +3,8 @@ from splinter import Browser
 from bs4 import BeautifulSoup as soup
 import pandas as pd
 import datetime as dt
+from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-
 
 def scrape_all():
     # Initiate headless driver for deployment
